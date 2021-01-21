@@ -1,0 +1,34 @@
+{
+    "token": "Enter_Bot_Token_Here", # You must first create your discord bot at https://discord.com/developers/applications after you create your discord bot. Simple copy/paste your token into here.
+    "displayTotal": true, # This setting will display the total amount of players from all the IPs/Ports listed below. If the setting is set to "false" it will rotate each IP/Ports line and display the players from each server ip.
+    "servers": [
+        "IP1:PORT1", # Enter your dedicated server IP followed by the steam query port. These IPs/Ports will with any STEAM game that has a steam query port and dedicated IP.
+        "IP2:PORT2", # Enter your dedicated server IP followed by the steam query port. These IPs/Ports will with any STEAM game that has a steam query port and dedicated IP.
+        "IP3:PORT3" # Enter your dedicated server IP followed by the steam query port. These IPs/Ports will with any STEAM game that has a steam query port and dedicated IP.
+    ]
+}
+
+Installation instructions:
+Step 1. Install https://nodejs.org/en/
+Step 2. After installing Node.JS, Reboot the computer.
+Step 3. Install the DiscordBot into any folder on your computer/box.
+Step 4. Edit the configuration file to add your IP/PORTs
+Step 5. Run the "Run.bat" file.
+Step 6. Enjoy the bot!
+
+Bot token instructions:
+Step 1. Go to https://discord.com/developers/applications
+Step 2. Click "New Application"
+Step 3. Click on the "Bots" tab.
+Step 4. Click "Create Bot"
+Step 5. Click the "COPY" button to copy the bot's secret token.
+Step 6. Head to the "OAuth2" tab.
+Step 7. Click "Bot" and underneath that click "Administrate"
+Step 8. This will generate a URL, copy the URL and paste it into the browser to invite your bot into your private discord.
+
+Notes:
+- This was designed for windows servers but can work with linux if you understand how to setup nodejs via linux.
+- You can checkout our support discord https://discord.gg/YadtVbB or message OG | TheOwlSky#3090 if you need any support.
+- We are planning to keeping this bot OPEN SOURCE which means every update we deploy out you can freely modify the code to your liking.
+- We are planning to keep this bot 100% free and not hidden with any sort of payment walls.
+- We will be providing updates to this discord bot with new advance features to help make moderation much more easy stay tune in discord to watch live updates or future updates.
